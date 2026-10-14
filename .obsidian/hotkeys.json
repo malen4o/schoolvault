@@ -1,0 +1,11 @@
+{
+  "insert-template": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Insert"
+    }
+  ],
+  "file-explorer:new-file-in-new-pane": []
+}

@@ -1,0 +1,15 @@
+filters:
+  and:
+    - file.inFolder("2 - Източници")
+views:
+  - type: table
+    name: Questions by Exam
+    order:
+      - file.name
+      - aliases
+      - tags
+    sort:
+      - property: file.name
+        direction: DESC
+    columnSize:
+      file.name: 150

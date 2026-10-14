@@ -1,0 +1,49 @@
+filters:
+  and:
+    - file.inFolder("1 - Справочник")
+properties:
+  file.name:
+    displayName: title
+views:
+  - type: table
+    name: Works by Genre
+    filters:
+      and:
+        - genre == this.file
+    order:
+      - class
+      - file.name
+      - author
+    sort:
+      - property: aliases
+        direction: ASC
+    columnSize: {}
+  - type: table
+    name: All Works
+    filters:
+      and:
+        - type == ["[[произведение]]"]
+    groupBy:
+      property: class
+      direction: ASC
+    order:
+      - file.name
+      - author
+      - genre
+    sort:
+      - property: aliases
+        direction: ASC
+    columnSize:
+      file.name: 226
+  - type: table
+    name: Works by Author
+    filters:
+      and:
+        - author == this.file
+    order:
+      - class
+      - file.name
+      - genre
+    sort:
+      - property: aliases
+        direction: ASC

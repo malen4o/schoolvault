@@ -1,0 +1,25 @@
+filters:
+  and:
+    - file.inFolder("1 - Справочник")
+    - type == ["[[произведение]]"]
+properties:
+  file.name:
+    displayName: title
+views:
+  - type: table
+    name: All Genres
+    groupBy:
+      property: genre
+      direction: ASC
+    order:
+      - class
+      - file.name
+      - author
+    sort:
+      - property: class
+        direction: ASC
+      - property: aliases
+        direction: ASC
+    columnSize:
+      note.class: 47
+      file.name: 277

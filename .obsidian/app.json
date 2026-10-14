@@ -1,0 +1,11 @@
+{
+  "newFileLocation": "root",
+  "newFileFolderPath": "1 - Fleeting Notes",
+  "attachmentFolderPath": "6 - Прикачени файлове",
+  "alwaysUpdateLinks": true,
+  "userIgnoreFilters": [
+    "6 - Permanent Notes/Non-Exam Cards/",
+    "9 - Archive/"
+  ],
+  "promptDelete": false
+}

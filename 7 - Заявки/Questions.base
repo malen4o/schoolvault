@@ -1,0 +1,78 @@
+filters:
+  and:
+    - file.inFolder("4 - Въпроси")
+    - references.toString().contains("ДЗИ БЕЛ")
+properties:
+  file.name:
+    displayName: question
+views:
+  - type: table
+    name: Exam Questions
+    filters:
+      and:
+        - references == this.file
+    order:
+      - question_num
+      - file.name
+    sort:
+      - property: question_num
+        direction: ASC
+      - property: file.name
+        direction: DESC
+    columnSize:
+      note.question_num: 28
+      file.name: 926
+    markers: number
+    indentProperties: false
+  - type: table
+    name: Questions by Number
+    groupBy:
+      property: question_num
+      direction: ASC
+    order:
+      - file.name
+      - references
+    sort:
+      - property: references
+        direction: DESC
+    columnSize:
+      file.name: 1003
+  - type: table
+    name: Questions by Work
+    filters:
+      and:
+        - tags.contains(list(this.aliases).join("").replace("#",""))
+    groupBy:
+      property: type
+      direction: ASC
+    order:
+      - file.name
+      - references
+    sort:
+      - property: references
+        direction: DESC
+    columnSize:
+      file.name: 710
+      note.references: 174
+  - type: table
+    name: Question by Type
+    filters:
+      and:
+        - type == this.file
+    groupBy:
+      property: question_num
+      direction: ASC
+    order:
+      - file.name
+      - tags
+    sort:
+      - property: references
+        direction: DESC
+    columnSize:
+      file.name: 926
+  - type: table
+    name: Questions on Genre
+    filters:
+      and:
+        - file.fullname.contains(this.file.name)
+        - file.fullname.contains("жанр")

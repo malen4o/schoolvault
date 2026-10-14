@@ -1,0 +1,83 @@
+{
+  "version": 2,
+  "operations": [
+    {
+      "id": "1790412459247-e9dfjl5f9u",
+      "timestamp": 1790412459247,
+      "oldPath": "6 - Permanent Notes",
+      "newPath": "4 - Въпроси",
+      "files": [
+        {
+          "path": "7 - Заявки/Exams.base",
+          "changes": [
+            {
+              "before": "6 - Permanent Notes",
+              "after": "4 - Въпроси"
+            }
+          ],
+          "undone": false,
+          "before": "filters:\n  and:\n    - file.inFolder(\"6 - Permanent Notes\")\nviews:\n  - type: table\n    name: Questions by Exam\n    groupBy:\n      property: references\n      direction: ASC\n    order:\n      - question_num\n      - file.name\n    sort:\n      - property: question_num\n        direction: ASC\n      - property: file.name\n        direction: ASC\n    columnSize:\n      note.question_num: 63\n",
+          "after": "filters:\n  and:\n    - \"file.inFolder(\\\"4 - Въпроси\\\")\"\nviews:\n  - type: table\n    name: Questions by Exam\n    groupBy:\n      property: references\n      direction: ASC\n    order:\n      - question_num\n      - file.name\n    sort:\n      - property: question_num\n        direction: ASC\n      - property: file.name\n        direction: ASC\n    columnSize:\n      note.question_num: 63\n"
+        },
+        {
+          "path": "7 - Заявки/Questions.base",
+          "changes": [
+            {
+              "before": "6 - Permanent Notes",
+              "after": "4 - Въпроси"
+            }
+          ],
+          "undone": false,
+          "before": "filters:\n  and:\n    - file.inFolder(\"6 - Permanent Notes\")\nviews:\n  - type: table\n    name: Exam Questions\n    filters:\n      and:\n        - references == this.file\n    order:\n      - question_num\n      - file.name\n    sort:\n      - property: question_num\n        direction: ASC\n      - property: file.name\n        direction: ASC\n    columnSize:\n      note.question_num: 28\n      file.name: 926\n    markers: number\n    indentProperties: false\n  - type: table\n    name: Questions by Number\n    groupBy:\n      property: question_num\n      direction: ASC\n    order:\n      - file.name\n      - references\n    sort:\n      - property: references\n        direction: DESC\n    columnSize:\n      file.name: 1003\n  - type: table\n    name: Questions by Work\n    filters:\n      and:\n        - tags.contains(list(this.aliases).join(\"\").replace(\"#\",\"\"))\n    groupBy:\n      property: type\n      direction: ASC\n    order:\n      - file.name\n      - references\n    sort:\n      - property: references\n        direction: DESC\n    columnSize:\n      file.name: 552\n      note.references: 174\n",
+          "after": "filters:\n  and:\n    - \"file.inFolder(\\\"4 - Въпроси\\\")\"\nviews:\n  - type: table\n    name: Exam Questions\n    filters:\n      and:\n        - references == this.file\n    order:\n      - question_num\n      - file.name\n    sort:\n      - property: question_num\n        direction: ASC\n      - property: file.name\n        direction: ASC\n    columnSize:\n      note.question_num: 28\n      file.name: 926\n    markers: number\n    indentProperties: false\n  - type: table\n    name: Questions by Number\n    groupBy:\n      property: question_num\n      direction: ASC\n    order:\n      - file.name\n      - references\n    sort:\n      - property: references\n        direction: DESC\n    columnSize:\n      file.name: 1003\n  - type: table\n    name: Questions by Work\n    filters:\n      and:\n        - tags.contains(list(this.aliases).join(\"\").replace(\"#\",\"\"))\n    groupBy:\n      property: type\n      direction: ASC\n    order:\n      - file.name\n      - references\n    sort:\n      - property: references\n        direction: DESC\n    columnSize:\n      file.name: 552\n      note.references: 174\n"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "id": "1790411897525-btpy6poj9eh",
+      "timestamp": 1790411897525,
+      "oldPath": "1 - Indexes",
+      "newPath": "1 - Справочник",
+      "files": [
+        {
+          "path": "7 - Заявки/Works.base",
+          "changes": [
+            {
+              "before": "1 - Indexes",
+              "after": "1 - Справочник"
+            }
+          ],
+          "undone": false,
+          "before": "filters:\n  and:\n    - file.inFolder(\"1 - Indexes\")\nproperties:\n  file.name:\n    displayName: title\nviews:\n  - type: table\n    name: Works by Genre\n    filters:\n      and:\n        - genre == this.file\n    order:\n      - class\n      - file.name\n      - author\n    sort:\n      - property: aliases\n        direction: ASC\n    columnSize: {}\n  - type: table\n    name: All Works\n    filters:\n      and:\n        - type == [\"[[произведение]]\"]\n    groupBy:\n      property: class\n      direction: ASC\n    order:\n      - file.name\n      - author\n      - genre\n    sort:\n      - property: aliases\n        direction: ASC\n    columnSize:\n      file.name: 226\n  - type: table\n    name: Works by Author\n    filters:\n      and:\n        - author == this.file\n    order:\n      - class\n      - file.name\n      - genre\n    sort:\n      - property: aliases\n        direction: ASC\n",
+          "after": "filters:\n  and:\n    - \"file.inFolder(\\\"1 - Справочник\\\")\"\nproperties:\n  file.name:\n    displayName: title\nviews:\n  - type: table\n    name: Works by Genre\n    filters:\n      and:\n        - genre == this.file\n    order:\n      - class\n      - file.name\n      - author\n    sort:\n      - property: aliases\n        direction: ASC\n    columnSize: {}\n  - type: table\n    name: All Works\n    filters:\n      and:\n        - type == [\"[[произведение]]\"]\n    groupBy:\n      property: class\n      direction: ASC\n    order:\n      - file.name\n      - author\n      - genre\n    sort:\n      - property: aliases\n        direction: ASC\n    columnSize:\n      file.name: 226\n  - type: table\n    name: Works by Author\n    filters:\n      and:\n        - author == this.file\n    order:\n      - class\n      - file.name\n      - genre\n    sort:\n      - property: aliases\n        direction: ASC\n"
+        },
+        {
+          "path": "7 - Заявки/Genres.base",
+          "changes": [
+            {
+              "before": "1 - Indexes",
+              "after": "1 - Справочник"
+            }
+          ],
+          "undone": false,
+          "before": "filters:\n  and:\n    - file.inFolder(\"1 - Indexes\")\n    - type == [\"[[произведение]]\"]\nproperties:\n  file.name:\n    displayName: title\nviews:\n  - type: table\n    name: All Genres\n    groupBy:\n      property: genre\n      direction: ASC\n    order:\n      - class\n      - file.name\n      - author\n    sort:\n      - property: class\n        direction: ASC\n      - property: aliases\n        direction: ASC\n    columnSize:\n      note.class: 47\n      file.name: 277\n",
+          "after": "filters:\n  and:\n    - \"file.inFolder(\\\"1 - Справочник\\\")\"\n    - type == [\"[[произведение]]\"]\nproperties:\n  file.name:\n    displayName: title\nviews:\n  - type: table\n    name: All Genres\n    groupBy:\n      property: genre\n      direction: ASC\n    order:\n      - class\n      - file.name\n      - author\n    sort:\n      - property: class\n        direction: ASC\n      - property: aliases\n        direction: ASC\n    columnSize:\n      note.class: 47\n      file.name: 277\n"
+        },
+        {
+          "path": "7 - Заявки/Authors.base",
+          "changes": [
+            {
+              "before": "1 - Indexes",
+              "after": "1 - Справочник"
+            }
+          ],
+          "undone": false,
+          "before": "filters:\n  and:\n    - file.inFolder(\"1 - Indexes\")\nviews:\n  - type: table\n    name: All Authors\n    filters:\n      and:\n        - type == [\"[[произведение]]\"]\n    groupBy:\n      property: author\n      direction: ASC\n    order:\n      - class\n      - file.name\n      - genre\n    sort:\n      - property: class\n        direction: ASC\n      - property: aliases\n        direction: ASC\n    columnSize:\n      note.class: 45\n      file.name: 243\n",
+          "after": "filters:\n  and:\n    - \"file.inFolder(\\\"1 - Справочник\\\")\"\nviews:\n  - type: table\n    name: All Authors\n    filters:\n      and:\n        - type == [\"[[произведение]]\"]\n    groupBy:\n      property: author\n      direction: ASC\n    order:\n      - class\n      - file.name\n      - genre\n    sort:\n      - property: class\n        direction: ASC\n      - property: aliases\n        direction: ASC\n    columnSize:\n      note.class: 45\n      file.name: 243\n"
+        }
+      ],
+      "errors": []
+    }
+  ]
+}

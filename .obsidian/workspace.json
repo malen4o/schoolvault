@@ -1,0 +1,279 @@
+{
+  "main": {
+    "id": "e08169e0f7014cdb",
+    "type": "split",
+    "children": [
+      {
+        "id": "c158a0c44c5353e6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "668682053b6d23bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "29c13941257ff42b",
+    "type": "split",
+    "children": [
+      {
+        "id": "ab8eb2ab69740191",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "af68009af1a536dc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "9af44bc9bc185c6b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#български/пунктуация",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ebe2cc3a2b6f8ba1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 206.1666717529297
+  },
+  "right": {
+    "id": "f20be05581268c2e",
+    "type": "split",
+    "children": [
+      {
+        "id": "b273ba2e39fabbd7",
+        "type": "tabs",
+        "dimension": 54.65116279069767,
+        "children": [
+          {
+            "id": "7b4129a933c0d99c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "4 - Въпроси/В кое изречение е допусната правописна грешка (издръжлив).md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "a4bf910af7980b75",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "4 - Въпроси/В кое изречение е допусната правописна грешка (издръжлив).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "02116e2d7dcad185",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "c7d900dd67742169",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "6ea29c3ec168707b",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {},
+              "icon": "lucide-info",
+              "title": "File properties"
+            }
+          },
+          {
+            "id": "20b20895dbf0dcc3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "4 - Въпроси/В кое изречение е допусната граматична грешка (Кресненското и Искърското дефиле).md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "c2b54261c6cf4c21",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          }
+        ],
+        "currentTab": 6
+      },
+      {
+        "id": "c8aaa8d6d24abb10",
+        "type": "tabs",
+        "dimension": 45.34883720930233,
+        "children": [
+          {
+            "id": "c5414c53276b1bf5",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 379.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "base-path-updater:Base Path Updater": false
+    }
+  },
+  "active": "af68009af1a536dc",
+  "lastOpenFiles": [
+    "README.md",
+    "6 - Прикачени файлове/Pasted image 20261013190956.png",
+    "5 - Шаблони/4 - Затворен въпрос (български & литература).md",
+    "4 - Въпроси/В кое изречение е допусната граматична грешка (Българската телеграфна агенция).md",
+    "5 - Шаблони/2 - Източник.md",
+    "5 - Шаблони/4 - Отворен въпрос (български).md",
+    "5 - Шаблони/4 - Отворен въпрос (четене & литература).md",
+    "5 - Шаблони/1 - Автор.md",
+    "5 - Шаблони/1 - Жанр.md",
+    "6 - Прикачени файлове/Pasted image 20261013190830.png",
+    "6 - Прикачени файлове/Pasted image 20261013190822.png",
+    "6 - Прикачени файлове/Pasted image 20261013190820.png",
+    "4 - Въпроси/В кое изречение е допусната граматична грешка (Кресненското и Искърското дефиле).md",
+    "4 - Въпроси/В кое изречение е допусната граматична грешка (избраха него - най-добрия).md",
+    "4 - Въпроси/В кое изречение е допусната граматична грешка (Държавната агенция за закрила на детето).md",
+    "4 - Въпроси/В кое изречение е допусната граматична грешка (виждат изписан телефона).md",
+    "6 - Прикачени файлове/Pasted image 20261013182854.png",
+    "6 - Прикачени файлове/Pasted image 20261013172718.png",
+    "4 - Въпроси/Запишете правилната за изречението форма на думата, поставена в скоби (раменна).md",
+    "6 - Прикачени файлове/Pasted image 20261013171450.png",
+    "6 - Прикачени файлове/Pasted image 20261013171209.png",
+    "6 - Прикачени файлове/dzibel-25082022.pdf",
+    "6 - Прикачени файлове/Pasted image 20260405202054.png",
+    "6 - Прикачени файлове/Pasted image 20260405205315.png",
+    "6 - Прикачени файлове/pp_matematika.pdf",
+    "6 - Прикачени файлове/dzi_bel_18_05_2022.pdf",
+    "6 - Прикачени файлове/matematika-23-avgust-2024-g.pdf",
+    "6 - Прикачени файлове/2dzi_matematika_v1.pdf",
+    "6 - Прикачени файлове/2dzi_matematika.pdf",
+    "6 - Прикачени файлове/2dzi25_matematika_v2.pdf",
+    "6 - Прикачени файлове/2dzi_pp_matematika_v2_23.05.2023.pdf",
+    "6 - Прикачени файлове/dzi-bel_17052024-otgovori.pdf",
+    "3 - Категории/матура.md",
+    "7 - Заявки/Exams.base",
+    "1 - Справочник/Аз искам да те помня все така.md",
+    "2 - Източници/ДЗИ БЕЛ 2022-08-25.md",
+    "3 - Категории/произведение.md",
+    "3 - Категории/отворен въпрос.md",
+    "3 - Категории/затворен въпрос.md",
+    "3 - Категории/жанр.md",
+    "3 - Категории/автор.md",
+    "1 - Справочник/Балкански синдром.md",
+    "1 - Справочник/Балада за Георг Хених.md",
+    "1 - Справочник/Бай Ганьо журналист.md",
+    "1 - Справочник/Атанас Далчев.md",
+    "Untitled.canvas"
+  ]
+}

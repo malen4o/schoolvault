@@ -1,0 +1,277 @@
+{
+  "workspaces": {
+    "ДЗИ БЕЛ август 2026г.": {
+      "main": {
+        "id": "e08169e0f7014cdb",
+        "type": "split",
+        "children": [
+          {
+            "id": "883b8912ce23f491",
+            "type": "tabs",
+            "dimension": 30.181086519114686,
+            "children": [
+              {
+                "id": "e671cda8fc08bca7",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
+                }
+              }
+            ]
+          },
+          {
+            "id": "e824254397d7de6a",
+            "type": "tabs",
+            "dimension": 49.564050972501676,
+            "children": [
+              {
+                "id": "ef6b32d99df31526",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "6 - Прикачени файлове/dzi_bel_21.08.2026otgovori.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "dzi_bel_21.08.2026otgovori"
+                }
+              }
+            ]
+          },
+          {
+            "id": "de94b0a8c7c4a963",
+            "type": "tabs",
+            "dimension": 20.254862508383635,
+            "children": [
+              {
+                "id": "201ed67816cba423",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "6 - Прикачени файлове/dzi_bel_21.08.2026otgovori.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "dzi_bel_21.08.2026otgovori"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "29c13941257ff42b",
+        "type": "split",
+        "children": [
+          {
+            "id": "ab8eb2ab69740191",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "af68009af1a536dc",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "9af44bc9bc185c6b",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": true,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "ebe2cc3a2b6f8ba1",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 206.1666717529297,
+        "collapsed": true
+      },
+      "right": {
+        "id": "f20be05581268c2e",
+        "type": "split",
+        "children": [
+          {
+            "id": "b273ba2e39fabbd7",
+            "type": "tabs",
+            "dimension": 54.65116279069767,
+            "children": [
+              {
+                "id": "7b4129a933c0d99c",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "4 - Въпроси/В кое изречение е допусната правописна грешка (издръжлив).md",
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks"
+                }
+              },
+              {
+                "id": "a4bf910af7980b75",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "4 - Въпроси/В кое изречение е допусната правописна грешка (издръжлив).md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links"
+                }
+              },
+              {
+                "id": "02116e2d7dcad185",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "c7d900dd67742169",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
+                "id": "6ea29c3ec168707b",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "4 - Въпроси/В кое изречение е допусната правописна грешка (издръжлив).md"
+                  },
+                  "icon": "lucide-info",
+                  "title": "File properties"
+                }
+              },
+              {
+                "id": "20b20895dbf0dcc3",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "4 - Въпроси/В кое изречение е допусната правописна грешка (издръжлив).md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline"
+                }
+              },
+              {
+                "id": "a22c6c506dae24f0",
+                "type": "leaf",
+                "state": {
+                  "type": "review-queue-list-view",
+                  "state": {},
+                  "icon": "lucide-ghost",
+                  "title": "review-queue-list-view"
+                }
+              }
+            ],
+            "currentTab": 6
+          },
+          {
+            "id": "c8aaa8d6d24abb10",
+            "type": "tabs",
+            "dimension": 45.34883720930233,
+            "children": [
+              {
+                "id": "c5414c53276b1bf5",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "graph",
+                  "state": {},
+                  "pinned": true,
+                  "icon": "lucide-git-fork",
+                  "title": "Graph view"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 379.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "daily-notes:Open today's daily note": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "bases:Create new base": false,
+          "obsidian-spaced-repetition:Review flashcards": false,
+          "base-path-updater:Base Path Updater": false,
+          "workspaces:Manage workspace layouts": false
+        }
+      },
+      "active": "ef6b32d99df31526",
+      "mtime": "2026-09-30T13:28:05+03:00"
+    }
+  },
+  "active": "ДЗИ БЕЛ август 2026г."
+}

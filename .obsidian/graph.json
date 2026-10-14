@@ -1,0 +1,44 @@
+{
+  "collapse-filter": false,
+  "search": "-path:\"5 - Шаблони\" -path:\"7 - Заявки\"  -path:\"3 - Категории\"  -path:\"6 - Прикачени файлове\"  -path:\"1 - Справочник\"",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"4 - Въпроси\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
+      }
+    },
+    {
+      "query": "path:\"2 - Източници\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "path: \"3- Tags\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": -2.4,
+  "nodeSizeMultiplier": 1.35052083333333,
+  "lineSizeMultiplier": 0.508333333333333,
+  "collapse-forces": false,
+  "centerStrength": 0.575708432912257,
+  "repelStrength": 20,
+  "linkStrength": 0.846354166666667,
+  "linkDistance": 500,
+  "scale": 0.04282779754206767,
+  "close": true
+}
